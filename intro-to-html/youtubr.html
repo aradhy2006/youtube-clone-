@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Youtube.com clone</title>
+        <Style>
+           
+        
+        .video-profile{
+         display: grid;
+         grid-template-columns: 50px 1fr;
+         
+        }
+.video-thumbnail{
+    width: 285px;
+    margin: 15px;
+}
+.video-title{
+  margin-top: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    width: 240px;
+ margin-bottom: 10px;
+
+}
+.search-box{
+    display: block;
+    margin-bottom: 5px;
+}
+.video-maker{
+    margin-top:0%;
+    margin-bottom: 0%;
+    font-size: 15px;
+    color: rgb(96, 96, 96);
+}
+.video-views{
+    font-size: 13px;
+    margin-top: 4px;
+    
+    color: rgb(96, 96, 96);
+}
+.profile-picture{
+  border: none;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  margin-right: 8px;
+}
+
+ 
+.video-text,.video-profile{
+  display: inline-block;
+  vertical-align: top;
+}
+        </Style>
+    </head>
+    <body>
+        <input class="search-box" type="text" placeholder="search-box">
+       <div>
+        <div class="Video-preview">
+          <div>
+            <img class="video-thumbnail" src="thumbnails/thumbnail1.webp" alt="">
+           </div>
+  <div class="video-profile"> 
+   <img class="profile-picture" src="profile-picture/channel profile 1.jpeg" alt="">
+   <div class="video-text">
+     <P class="video-title">
+       Talking Tech and AI with Google CEO Sundar Pichai!
+     </P>
+     <P class="video-maker">
+   Marques Brownlee
+     </P>
+   <P class="video-views">
+       3.4M views · 6 months ago
+     </P> 
+   </div>
+</div>
+      
+       </div>
+       <div class="Video-preview">
+           <div>
+             <img class="video-thumbnail" src="thumbnails/thumbnail-2.webp" alt="">
+           </div>
+   <div class="video-profile">
+     <img class="profile-picture " src="profile-picture/channel profile 2.jpeg" alt="">
+     <div class="video-text">
+       <P class="video-title">
+         Try Not To Laugh Challenge 
+               </P>
+               <P class="video-maker">
+                 Markiplier
+               </P>
+             <P class="video-views">
+                 19M views · 4 years ago
+               </P>
+     </div>
+   </div>
+  
+       </div>
+       </div>
+        </body>
+</html>
